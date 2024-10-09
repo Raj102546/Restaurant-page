@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f4d9d0;
+    font-family: "Lobster", sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #c75b7a;
+    padding: 20px 0;
+    border-bottom: 3px solid #921A40;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav button {
+    padding: 10px 20px;
+    background-color: #D9ABAB;
+    border: none;
+    border-bottom: 3px solid #921A40;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  nav button:hover {
+    background-color: #c75b7a;
+    color: #fff;
+  }
+  
+  main {
+    margin: 40px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #C75B7A;
+    border-radius: 20px;
+    border: 3px solid #921A40;
+  }
+  
+  .heading {
+    background-color: #D9ABAB;
+    border: 2px solid #921A40 ;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 2.2rem;
+    color: #921A40;
+  }
+  
+  .homeSec, .menuSec, .contact {
+    background-color: #f4e1d4;
+    padding: 20px 40px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border: 2px solid #921A40;
+    text-align: left;
+  }
+  
+  .one, .sec, .third, .card {
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: #D9ABAB;
+    border-radius: 10px;
+    border: 2px solid #921A40;
+  }
+  
+  .one p, .sec p, .third p, .card p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .card h4 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  
+  .sec h2, .third h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
